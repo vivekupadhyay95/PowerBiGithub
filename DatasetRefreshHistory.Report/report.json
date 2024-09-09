@@ -1,0 +1,42 @@
+{
+  "config": "{\"version\":\"5.51\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU02\",\"version\":\"5.53\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU02",
+            "path": "BaseThemes/CY24SU02.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"79b0fd1d7655bb326c47\",\"layouts\":[{\"id\":0,\"position\":{\"x\":40.31496062992126,\"y\":47.034120734908136,\"z\":0,\"width\":1133.8582677165355,\"height\":487.1391076115485,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"20240421_1308_bbfaf4c7-1a92-4c77-a267-3916aef28e94_DatasetRefreshHistory.DatasetId\"},{\"queryRef\":\"20240421_1308_bbfaf4c7-1a92-4c77-a267-3916aef28e94_DatasetsMetadata.name\"},{\"queryRef\":\"Sum(20240421_1308_bbfaf4c7-1a92-4c77-a267-3916aef28e94_DatasetRefreshHistory.id)\"},{\"queryRef\":\"20240421_1308_bbfaf4c7-1a92-4c77-a267-3916aef28e94_DatasetRefreshHistory.refreshType\"},{\"queryRef\":\"20240421_1308_bbfaf4c7-1a92-4c77-a267-3916aef28e94_DatasetRefreshHistory.requestId\"},{\"queryRef\":\"20240421_1308_bbfaf4c7-1a92-4c77-a267-3916aef28e94_DatasetRefreshHistory.startTime\"},{\"queryRef\":\"20240421_1308_bbfaf4c7-1a92-4c77-a267-3916aef28e94_DatasetRefreshHistory.endTime\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"2\",\"Entity\":\"20240421_1308_bbfaf4c7-1a92-4c77-a267-3916aef28e94_DatasetRefreshHistory\",\"Type\":0},{\"Name\":\"21\",\"Entity\":\"20240421_1308_bbfaf4c7-1a92-4c77-a267-3916aef28e94_DatasetsMetadata\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"2\"}},\"Property\":\"DatasetId\"},\"Name\":\"20240421_1308_bbfaf4c7-1a92-4c77-a267-3916aef28e94_DatasetRefreshHistory.DatasetId\",\"NativeReferenceName\":\"DatasetId\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"21\"}},\"Property\":\"name\"},\"Name\":\"20240421_1308_bbfaf4c7-1a92-4c77-a267-3916aef28e94_DatasetsMetadata.name\",\"NativeReferenceName\":\"name\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"2\"}},\"Property\":\"id\"},\"Name\":\"Sum(20240421_1308_bbfaf4c7-1a92-4c77-a267-3916aef28e94_DatasetRefreshHistory.id)\",\"NativeReferenceName\":\"id\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"2\"}},\"Property\":\"refreshType\"},\"Name\":\"20240421_1308_bbfaf4c7-1a92-4c77-a267-3916aef28e94_DatasetRefreshHistory.refreshType\",\"NativeReferenceName\":\"refreshType\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"2\"}},\"Property\":\"requestId\"},\"Name\":\"20240421_1308_bbfaf4c7-1a92-4c77-a267-3916aef28e94_DatasetRefreshHistory.requestId\",\"NativeReferenceName\":\"requestId\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"2\"}},\"Property\":\"startTime\"},\"Name\":\"20240421_1308_bbfaf4c7-1a92-4c77-a267-3916aef28e94_DatasetRefreshHistory.startTime\",\"NativeReferenceName\":\"startTime\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"2\"}},\"Property\":\"endTime\"},\"Name\":\"20240421_1308_bbfaf4c7-1a92-4c77-a267-3916aef28e94_DatasetRefreshHistory.endTime\",\"NativeReferenceName\":\"endTime\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"values\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"15D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 487.14,
+          "width": 1133.86,
+          "x": 40.31,
+          "y": 47.03,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
